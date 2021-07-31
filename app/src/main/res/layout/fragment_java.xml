@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JavaFragment">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/java"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/dtv1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người thiết kế: James Gosling"
+        android:layout_below="@+id/image2"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/dtv2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhà phát triển: Oracle Corporation"
+        android:layout_below="@+id/dtv1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/dtv3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phần mở rộng tên tập tin: java, .class, .jar "
+        android:layout_below="@+id/dtv2"
+        android:textColor="@color/black"/>
+</RelativeLayout>

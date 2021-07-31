@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CFragment">
+
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/c"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/dtv1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thiết kế bởi: Bjarne Stroustrup "
+        android:layout_below="@+id/image2"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/dtv2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngôn ngữ thực thi: C++ hoặc C"
+        android:layout_below="@+id/dtv1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/dtv3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phần mở rộng tên tập tin: C.cc.cpp.cxx.c++.h.hh.hpp.hxx.h++ "
+        android:layout_below="@+id/dtv2"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
